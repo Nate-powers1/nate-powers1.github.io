@@ -1,8 +1,9 @@
 
-
 .grayWhalePic {
 	width: 500px;
 	height: 300px;
+    z-index: 50px;
+    position: fixed;
 }
 .pacificOceanPic {
     width: 259px;
@@ -11,7 +12,7 @@
     margin: 300px;
 }
 #hammerhead {
-    width: 100px;
+    width: 200px;
     height: 300px;
 }
 #table1 {
@@ -33,18 +34,24 @@
     font-color: cyan;
     margin: 50x 25px 50px 25px;
     padding: 50px 25px 50px 25px;
-    display:  inline;
+    display: inline;
     text-align: center;
     float: left;
     text-spacing: 50px;
-    background: no-repeat
+    background: no-repeat;
     border: dashed;
+    background-repeat: no-repeat;
+    box-shadow: 50px;
+    z-index: overlay: 50px;
+
 }
+
 
 #nav {
     overflow: hidden;
 	background-color: orange;
     font-color: orange;
+    opacity: 200;
 }
 #nav a {
 	list-style-type: a.hover.opacity: 70; background-color: blue; circle;
@@ -58,6 +65,7 @@
     text-spacing: 50px;
     background: no-repeat;
     border: dashed;
+    border-radius: 50px;
 }
 
 .aside1 {
