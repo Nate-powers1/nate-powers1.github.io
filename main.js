@@ -17,6 +17,7 @@ Object {
     getElementsByTagName('setTimeout(function() {}, 10);')
 
 }
+
 getTime()
 Date(MM/DD/YYYY)
 
@@ -25,7 +26,13 @@ alert("Welcome to my website");
 function button {
 	window.alert("Welcome to my website");
 }
-function   {
+function Button(OnMouseDown) {
+	alert(Date())
+	// body...
+}
+function button1.OnMouseDown() {
+	document.getElementById("#button1")
+	Date(MM-DD-YYY);
 }
 
 
@@ -50,8 +57,15 @@ button.prototype.constructor = function(button) {
 }
 	Object {
       Animal()
+      Date(MM-DD-YYYY)
 	}
 	
 	OnMouseDown.getDate();
 	}
+
+   function Date(MM-DD-YYYY) {
+   document.getElementById("#date").OnMouseDown();
+      alert(Date())
+   }
+
 </script>
